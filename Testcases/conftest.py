@@ -1,6 +1,5 @@
 import os
 import time
-
 import pytest
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
@@ -59,6 +58,6 @@ def pytest_runtest_makereport(item):
         report.extra = extra
 
 def pytest_html_report_title(report):
-    report.title = "RCV Academy Automation Report"
+    report.title = "Automation Report"
 
 
